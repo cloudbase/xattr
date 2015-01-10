@@ -64,5 +64,5 @@ setup(
     setup_requires=["cffi>=0.4"],
     test_suite="xattr.tests.all_tests_suite",
     zip_safe=False,
-    cmdclass={'build': cffi_build},
+    #cmdclass={'build': cffi_build},
 )
